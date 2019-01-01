@@ -1,0 +1,19 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "JS implementation of popular data structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frictionlessdev/data-structures.git"
+  },
+  "author": "Frictionlessdev",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Frictionlessdev/data-structures/issues"
+  },
+  "homepage": "https://github.com/Frictionlessdev/data-structures#readme"
+}
