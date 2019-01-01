@@ -4,7 +4,8 @@
   "description": "JS implementation of popular data structures",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc mocha ./test/**/*.test.js",
+    "test:watch": "mocha --watch ./test/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Frictionlessdev/data-structures/issues"
   },
-  "homepage": "https://github.com/Frictionlessdev/data-structures#readme"
+  "homepage": "https://github.com/Frictionlessdev/data-structures#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "sinon": "^7.2.2"
+  }
 }
